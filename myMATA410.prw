@@ -363,3 +363,8 @@ User Function MyMata410(cOper)
     
     RESET ENVIRONMENT
 Return(.T.)
+
+            /* 
+            Esse bloco de código finaliza o procedimento da função "MyMATA410". Se a operação especificada em "cOper" for 3 (exclusão), a função tentará excluir o Pedido de Vendas e exibirá mensagens de sucesso ou erro, dependendo do resultado da operação. Se a operação nao for de exclusão, a função exibirá as mensagens de alerta relacionadas à necessidade de cadastro de clientes, produtos, TES e condições de pagamento, caso eles não existam na base de dados. O ambiente será redefinido após o término da execução.
+            */
+
