@@ -20,9 +20,8 @@ WSRESTFUL myAPI DESCRIPTION "Lancamentos (AKD)"
 
 	WSMETHOD POST DESCRIPTION "Inclui lancamentos" WSSYNTAX ""
     //****************************************************************
-    /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-    
-
+    /* 
+    Nesse bloco de código estamos declarando uma classe RESTfull chamada "myAPI" que disponibiliza o método POST para que os clientes possam realizar a inclusão de lançamentos na tabela "AKD" do sistema.
     */
     //****************************************************************
 END WSRESTFUL 
@@ -43,9 +42,8 @@ WSMETHOD POST WSSERVICE myAPI
 
 	fStrDatHor("Metodo POST requisitado")
     //****************************************************************
-    /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-    
-
+    /* 
+    Esse bloco de código é o início da implementação do método POST da classe "myAPI" e define variáveis e objetos necessários para processar as requisições recebidas, incluindo a obtenção do conteúdo da requisição JSON, a preparação de variáveis de controle e a exibição de mensagens informativas no console. 
     */
     //****************************************************************
 
