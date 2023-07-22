@@ -279,9 +279,8 @@ User Function MyMata410(cOper)
             Next nX
 
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /* 
+            Esse bloco de código automatiza a atualização (alteração) de um Pedido de Vendas existente utilizando a função "MATA410". Ele permite alterar informações do cabeçalho e dos itens do Pedido de Vendas, além de incluir informações de rateio para cada item atualizado. O controle de erros também é realizado para lidar com situações em que a atualização pode falhar.
             */
             //****************************************************************
             
