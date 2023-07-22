@@ -288,9 +288,8 @@ User Function MyMata410(cOper)
             EndIf
 
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /*
+            Esse bloco de código xecuta a função "MATA410" para realizar a alteração de um Pedido de Vendas existente. Em caso de sucesso na alteração, uma mensagem de sucesso será exibida. Caso ocorra algum erro, uma mensagem de erro detalhada é exibida, indicando os possíveis problemas encontrados durante o processo de alteração.
             */
             //****************************************************************
 
