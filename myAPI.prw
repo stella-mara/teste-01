@@ -263,9 +263,8 @@ WSMETHOD POST WSSERVICE myAPI
 		cMsgAux := "JSON nao foi especificado corretamente no corpo da requisicao, verifique."
 		SetRestFault(12, cMsgAux)
         //****************************************************************
-        /* Com o seu conhecimento, descreva a utilização/finalidade da função acima:  
-
-
+        /* 
+        Esse bloco de código é responsável por finalizar a transação de banco de dados após o processamento dos lançamentos contábeis, bem como lidar com possíveis erros de requisição relacionados à estrutura JSON enviada. Ele assegura que as operações no banco de dados sejam tratadas de forma consistente e, em caso de erro, retorna uma mensagem adequada ao cliente para que ele possa entender o motivo da falha na requisição.
         */
         //****************************************************************
 
