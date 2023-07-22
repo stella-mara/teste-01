@@ -43,15 +43,15 @@ WSMETHOD POST WSSERVICE myAPI
 	fStrDatHor("Metodo POST requisitado")
     //****************************************************************
     /* 
-    Esse bloco de código é o início da implementação do método POST da classe "myAPI" e define variáveis e objetos necessários para processar as requisições recebidas, incluindo a obtenção do conteúdo da requisição JSON, a preparação de variáveis de controle e a exibição de mensagens informativas no console. 
+    Esse bloco de código é o início da implementação do método POST da classe "myAPI" e define variáveis e objetos necessários para processar as requisições recebidas, incluindo a obtenção do conteúdo da requisição JSON, a preparação de variáveis de controle e a exibição de mensagens informativas no console.
+    A função  "fStrDatHor" é responsável por exibir mensagens no console, informando eventos no fluxo do código.
     */
     //****************************************************************
 
 	::SetContentType("application/json")
     //****************************************************************
-    /* Com o seu conhecimento, descreva a utilização/finalidade da função acima:  
-
-
+    /* 
+    Esse bloco de código está configurando o cabeçalho da resposta para indicar que o conteúdo retornado será um objeto JSON. Essa configuração é importante para que o cliente saiba como interpretar os dados recebidos e possa processá-lo adequadamente.
     */
     //****************************************************************
 
