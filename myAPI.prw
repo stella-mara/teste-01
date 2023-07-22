@@ -280,9 +280,8 @@ WSMETHOD POST WSSERVICE myAPI
     ::SetResponse(oAKDRet)
 
     //****************************************************************
-    /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-    
-
+    /*
+    Esse bloco de código prepara a resposta da API após o processamento dos lançamentos contábeis. Ele cria um objeto JSON "oAKDRet", preenche-o com os dados processados e registra logs relevantes para fins de depuração. Em seguida, define esse objeto JSON como a resposta da API, que será enviada de volta ao cliente que realizou a chamada. Caso ocorra algum erro durante o processamento, a variável "lRet" será definida como falso e uma mensagem de erro adequada será registrada e enviada na resposta JSON.
     */
     //****************************************************************
 
