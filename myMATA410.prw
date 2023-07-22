@@ -347,9 +347,8 @@ User Function MyMata410(cOper)
             EndIf
 
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /* 
+            Esse bloco automatiza a execução da função "MATA410" para excluir o Pedido de Vendas usando os parâmetros contidos nos vetores "aCabec" e "aItens". Ele exibe uma mensagem de sucesso ou erro, dependendo do resultado da operação.
             */
             //****************************************************************
             
