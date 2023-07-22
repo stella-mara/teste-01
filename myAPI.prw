@@ -96,7 +96,7 @@ WSMETHOD POST WSSERVICE myAPI
             //****************************************************************
             /* 
             Essa estrutura de loop é usada para processar os lançamentos contábeis recebidos na requisição POST. Ela percorre cada lançamento contábil presente no array "oAKD:AAKD", adicionando um objeto JSON vazio para representar cada lançamento no array "aAKDRet". Cada objeto JSON do array "aAKDRet" contém um campo "Indice" que indica o número sequencial do lançamento.
-            Obs.: _nX não foi declarada no inicio do programa e pode provocar erro.
+            Obs.: _nX não foi declarada no início do programa e pode provocar erro.
             */
             //****************************************************************
 
@@ -197,9 +197,8 @@ WSMETHOD POST WSSERVICE myAPI
                 EndIf
                 
                 //****************************************************************
-                /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-                
-
+                /*
+                Esse bloco de código representa uma sequência de verifocações e validações dos campos do lançamento contábil. Caso alguma dessas verificações nao seja atendida, uma mensagem de erro é armazenada no array "aAKDRet" para informar ao cliente que há problemas com os dados de lançamento. Essas mensagens de erro serão retornadas ao cliente na resposta da requisição POST, fornecendo informações específicas sobre os campos que precisam ser corrigidos ou preenchidos corretamente.
                 */
                 //****************************************************************
                 
