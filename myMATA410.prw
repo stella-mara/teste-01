@@ -92,7 +92,7 @@ User Function MyMata410(cOper)
     //****************************************************************
     /* 
     Esse bloco de código configura a ordem de acesso às tabelas "SA1", "SB1", "SE4" e "SF4" e armazena os códigos de filial relacionados a cada tabela em variáveis correspondentes.
-    ---- A funçãoi "dbSetOrder(1) indica que os registros serão acessados pela primeira chave da tabela. Isso significa que a primeira chave definida na estrutura da tabela determinará a sequência em que os resgistros serão acessados.
+    ---- A função "dbSetOrder(1)" indica que os registros serão acessados pela primeira chave da tabela. Isso significa que a primeira chave definida na estrutura da tabela determinará a sequência em que os resgistros serão acessados.
     */
     //****************************************************************
 
@@ -121,7 +121,7 @@ User Function MyMata410(cOper)
     Ese bloco de código verifica se determinados registros existem nas tabelas do sistema e, caso não existam, atualiza uma variável de controle para indicar que algo está faltando e adiciona uma mensagem informativa em uma variável de log.
     ---- A função "MsSeek" é usada para fazer a busca na tabela. Então, caso não exista o registro identificado no parâmetro da função, uma mensagem é adicionada na variável "cMsgLog" informando o que deve ser cadastrado. Além disso, a variável de controle "lOk" é atualizado para falso, indicando que algo está faltando.
     ---- Após essa sequência de verificações, a variável "1Ok" será verdadeira se todos os registros forem encontrados nas suas respectivas tabelas.
-    ---- Essa estrutura é comum em rotinas de validação ou preparação de dados antes de executar operações mais compleas. É uma maneira de garantir que os dados necessários estejam disponíveis e prontos para serem utilizados nas próximas operações.
+    ---- Todos os conteúdos de busca foram definidos através das variáveis locais, criadas logo no início da User function.
     */
     //****************************************************************
 
