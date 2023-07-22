@@ -216,9 +216,8 @@ User Function MyMata410(cOper)
                 Next nCount
             EndIf
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /* 
+            Esse bloco de código automatiza a inclusão de um novo Pedido de Vendas usando a função "MATA410". Se a inclusão for bem-sucedida, uma mensagem de sucesso é exibida com o número do documento do Pedido de Vendas. Caso ocorra algum erro durante a inclusão, uma mensagem de erro é exibida e os detalhes de erro são recuperados da função "GetAutoGRLog()" e formatados antes de serem exibidos na tela.
             */
             //****************************************************************
 
