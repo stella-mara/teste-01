@@ -117,9 +117,11 @@ User Function MyMata410(cOper)
     EndIf
     
     //****************************************************************
-    /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-    
-
+    /* 
+    Ese bloco de código verifica se determinados registros existem nas tabelas do sistema e, caso não existam, atualiza uma variável de controle para indicar que algo está faltando e adiciona uma mensagem informativa em uma variável de log.
+    ---- A função "MsSeek" é usada para fazer a busca na tabela. Então, caso não exista o registro identificado no parâmetro da função, uma mensagem é adicionada na variável "cMsgLog" informando o que deve ser cadastrado. Além disso, a variável de controle "lOk" é atualizado para falso, indicando que algo está faltando.
+    ---- Após essa sequência de verificações, a variável "1Ok" será verdadeira se todos os registros forem encontrados nas suas respectivas tabelas.
+    ---- Essa estrutura é comum em rotinas de validação ou preparação de dados antes de executar operações mais compleas. É uma maneira de garantir que os dados necessários estejam disponíveis e prontos para serem utilizados nas próximas operações.
     */
     //****************************************************************
 
