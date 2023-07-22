@@ -129,9 +129,10 @@ User Function MyMata410(cOper)
     
         cDoc := GetSxeNum("SC5", "C5_NUM")
         //****************************************************************
-        /* Com o seu conhecimento, descreva a utilização/finalidade da função acima:  
-
-
+        /*
+        Essa função é usada para obter o próximo número disponível na sequência da tabela "SC5" e campo "C5_NUM". Esse número pode ser utilizado para criar um novo registro no módulo de Pedidos de Vendas, garantindo que o número de pedido seja único e sequencial.
+        ---- A funcionalidade de "GetSxeNum" é acessar o Protheus SXE (Sistema de Expansão) para obter o próximo número disponível na sequência da tabela e campo especificados no parâmetro. Nessa caso o nome da tabela é "SC5" e o nome do campo "C5_NUM". 
+        ---- Após a execução dessa linha, "cDoc" conterá o novo número disponível para ser utilizado no próximo pedido criado.
         */
         //****************************************************************
         
