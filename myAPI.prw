@@ -216,9 +216,8 @@ WSMETHOD POST WSSERVICE myAPI
                 EndIf
 
                 //****************************************************************
-                /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-                
-
+                /* 
+                Esse bloco de código tem como finalidade obter um número de lote disponível e único para o lançamento contábil atual. Ele busca o próximo número de lote disponível da tabela "AKD" e, caso esse número já esteja sendo usado, ele obtém um novo número de lote até encontrar um que esteja livre. Uma vez que um número de lote válido é encontrado, ele é atribuído à variável "_clote" para ser utilizado posteriormente no processamento do lançamento contábil. Isso garante que cada lançamento tenha um número de lote exclusivo e evita possíveis conflitos de duplicação.
                 */
                 //****************************************************************
 
