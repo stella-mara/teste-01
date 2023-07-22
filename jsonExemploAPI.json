@@ -1,0 +1,18 @@
+{
+   "AAKD":[
+      {
+        "AKD_FILIAL":"01",
+        "AKD_DATA":"26/05/2023",
+        "AKD_CO":"80001001",
+        "AKD_TPSALD":"RE",
+        "AKD_HIST":"COMPRA NF 26092022 TESTE",
+        "AKD_VALOR1":300000,
+        "AKD_CC":"2005",
+        "AKD_ITCTB":"",
+        "AKD_CLVLR":"22001",
+        "AKD_STATUS":"1",
+        "AKD_CLASSE":"000001",
+        "AKD_TIPO":"2"               
+      } 
+   ]
+}
