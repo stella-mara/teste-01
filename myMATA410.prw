@@ -334,9 +334,8 @@ User Function MyMata410(cOper)
             Next nX
 
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /* 
+            Esse bloco de código prepara os dados necessários para a exclusão de um Pedido de Vendas. Define as informações do cabeçalho do pedido e os itens a serem excluídos. Ao finalizar a execução desse bloco, o programa estará pronto para executar a função "MATA410" com a operação de exclusão.
             */
             //****************************************************************
             
