@@ -188,9 +188,18 @@ User Function MyMata410(cOper)
             Next nX
 
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /*
+            Esse bloco de código prepara as estruturas de dados necessárias para criar um novo Pedido de Vendas e realizar o rateio dos itens, se necessário. É uma parte importante da função "MyMATA410", pois define os detalhes do pedido e prepara as informações necessárias para que a função "MATA410" possa executar a operação de inclusão do pedido no sistema.
+            ---- If cOper == 1: Este é um bloco condicional que verifica se o valor da variável cOper é igual a 1. Se cOper for igual a 1, significa que o código está criando um novo Pedido de Vendas.
+            ---- aCabec := {}: Cria um array vazio chamado aCabec, que será utilizado para armazenar informações do cabeçalho do Pedido de Vendas.
+            ---- aItens := {}: Cria um array vazio chamado aItens, que será utilizado para armazenar informações dos itens do Pedido de Vendas.
+            ---- aLinha := {}: Cria um array vazio chamado aLinha, que será utilizado temporariamente para armazenar informações de cada item do Pedido de Vendas antes de ser adicionado ao array aItens.
+            ---- aRatAGG := {}: Cria um array vazio chamado aRatAGG, que será utilizado para armazenar informações relacionadas ao rateio dos itens do Pedido de Vendas.
+            ---- aItemRat := {}: Cria um array vazio chamado aItemRat, que será utilizado para armazenar informações de rateio de cada item do Pedido de Vendas.
+            ---- aAuxRat := {}: Cria um array vazio chamado aAuxRat, que será utilizado temporariamente para armazenar informações de rateio antes de ser adicionado ao array aItemRat.
+            ---- aadd(aCabec, {...}): Adiciona informações do cabeçalho do Pedido de Vendas ao array aCabec. As informações são adicionadas como subarrays contendo pares chave-valor, onde a chave é o nome do campo na tabela do sistema e o valor é o valor a ser atribuído a esse campo.
+            ---- If cPaisLoc == "PTG" ... Endif: Este bloco condicional verifica se o valor da variável cPaisLoc é igual a "PTG". Caso verdadeiro, adiciona uma informação adicional no cabeçalho do Pedido de Vendas.
+            ---- For nX := 1 To 02 ... Next nX: Este é um loop For que itera duas vezes, criando um bloco de código repetitivo para cada item do Pedido de Vendas. Ele preenche o array aItens com informações dos itens do pedido e o array aItemRat com informações de rateio para cada item.
             */
             //****************************************************************
             
