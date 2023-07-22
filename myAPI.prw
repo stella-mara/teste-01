@@ -81,9 +81,9 @@ WSMETHOD POST WSSERVICE myAPI
         AKD->(DbSetOrder(1))
 
         //****************************************************************
-        /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-        
-
+        /* 
+        Nesse bloco de código estamos realizando as preparações necessárias para processar o conteúdo JSON recebido na requisição POST. Primeiro, verificamos se o conteúdo é uma string não vazia e, em seguida, convertemos essa string para um objeto JSON manipulável. 
+        Selecionamos as áreas de trabalho das tabelas do banco de dados envolvidas nas operações para garantir que as operações sejam realizadas na tabela correta.
         */
         //****************************************************************
 
