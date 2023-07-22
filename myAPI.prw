@@ -94,9 +94,9 @@ WSMETHOD POST WSSERVICE myAPI
             aAKDRet[_nX][ 'Indice' ]   := cValToChar(nFor)
 
             //****************************************************************
-            /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-            
-
+            /* 
+            Essa estrutura de loop é usada para processar os lançamentos contábeis recebidos na requisição POST. Ela percorre cada lançamento contábil presente no array "oAKD:AAKD", adicionando um objeto JSON vazio para representar cada lançamento no array "aAKDRet". Cada objeto JSON do array "aAKDRet" contém um campo "Indice" que indica o número sequencial do lançamento.
+            Obs.: _nX não foi declarada no inicio do programa e pode provocar erro.
             */
             //****************************************************************
 
