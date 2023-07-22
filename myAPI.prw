@@ -294,9 +294,8 @@ Static Function fStrDatHor(cMsg)
 	ConOut(DToC(Date())+"-"+Time()+" (myAPI) -> " + cValToChar(cMsg))
 
     //****************************************************************
-    /* Com o seu conhecimento, descreva a utilização/finalidade da função acima:  
-
-
+    /* 
+    Esse bloco de código encerra o processamento do método POST da API, restaura as áreas do banco de dados relacionadas às tabelas "AKD" e outras não especificadas, registra um log indicando que o método POST foi finalizado e retorna o status do processamento (verdadeiro ou falso) para ser usado no contexto geral da execução da API. A função "fStrDatHor" é usada para registrar logs ao longo do código para fins de depuração e rastreamento de atividades
     */
     //****************************************************************
 Return
