@@ -250,9 +250,8 @@ WSMETHOD POST WSSERVICE myAPI
                 EndIf
 
                 //****************************************************************
-                /* Com o seu conhecimento, descreva o bloco de código lido até aqui:
-                
-
+                /* 
+                Esse bloco de código é responsável por processar o lançamento contábil validado e inserir as informações na tabela "AKD" do sistema. Ele registra as informações necessárias para o lançamento, como filial, número de lote, data, conta, histórico, valor, centro de custo, tipo de saldo e classe. Após realizar o processo de inserção, ele informa na estrutura "aAKDRet" se o lançamento foi importado com sucesso ou se ocorreu algum problema ao gravá-lo no banco de dados.
                 */
                 //****************************************************************
 
